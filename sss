@@ -1,0 +1,24 @@
+#!/bin/bash
+#SSH starting script
+
+echo ---------------------
+#os type
+#os name
+#core version
+uname -omr
+echo ---------------------
+#IP
+hostname -I
+echo ---------------------
+#LA
+cat /proc/loadavg
+echo ---------------------
+#uptime
+uptime -p
+echo ---------------------
+#using RAM
+free -h
+echo ---------------------
+#login users
+who
+echo ---------------------
